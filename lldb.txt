@@ -1,0 +1,5 @@
+command script import ./trace.py
+image list
+trace
+process launch --no-stdio
+
